@@ -1,0 +1,98 @@
+import { Language } from '../types';
+
+export const englishToHindiConditions: Record<string, string> = {
+  'obstructive sleep apnea (osa)': 'अवरोधक निद्रा अश्वसन (ओएसए)',
+  'dental caries': 'दंत क्षय',
+  'noninfectious gastroenteritis': 'असंक्रामक गैस्ट्रोएन्टेराइटिस',
+  'arthritis of the hip': 'कूल्हे का गठिया',
+  'peripheral nerve disorder': 'परिधीय तंत्रिका विकार',
+  'injury to the leg': 'पैर में चोट',
+  'cystitis': 'मूत्राशयशोध',
+  'gastrointestinal hemorrhage': 'जठरांत्र रक्तस्राव',
+  'concussion': 'मस्तिष्काघात',
+  'hypoglycemia': 'हाइपोग्लाइसीमिया',
+  'eczema': 'एक्जिमा',
+  'cholecystitis': 'पित्ताशयशोध',
+  'spontaneous abortion': 'स्वतः गर्भपात',
+  'strep throat': 'स्ट्रेप थ्रोट',
+  'acute bronchitis': 'तीव्र श्वसननलीशोध',
+  'diverticulitis': 'डायवर्टीकुलाइटिस',
+  'vaginal cyst': 'योनि सिस्ट',
+  'liver disease': 'यकृत रोग',
+  'esophagitis': 'अन्ननलिकाशोध',
+  'nose disorder': 'नाक विकार',
+  'pneumonia': 'निमोनिया',
+  'injury to the arm': 'बांह में चोट',
+  'complex regional pain syndrome': 'जटिल क्षेत्रीय दर्द सिंड्रोम',
+  'acute bronchiolitis': 'तीव्र ब्रोंकिओलाइटिस',
+  'benign prostatic hyperplasia (bph)': 'सौम्य प्रोस्टेटिक हाइपरप्लासिया (बीपीएच)',
+  'acute pancreatitis': 'तीव्र अग्नाशयशोथ',
+  'conjunctivitis due to allergy': 'एलर्जी के कारण कंजंक्टिवाइटिस',
+  'fungal infection of the hair': 'बालों का फंगल संक्रमण',
+  'bursitis': 'बर्साइटिस',
+  'vulvodynia': 'वुल्वोडायनिया',
+  'spinal stenosis': 'स्पाइनल स्टेनोसिस',
+  'spondylosis': 'स्पॉन्डिलोसिस',
+  'gout': 'गाउट',
+  'anxiety': 'चिंता',
+  'marijuana abuse': 'मारिजुआना का दुरुपयोग',
+  'infectious gastroenteritis': 'संक्रामक गैस्ट्रोएन्टेराइटिस',
+  'sprain or strain': 'मोच या खिंचाव',
+  // Add translations for common phrases
+  'Consult a healthcare professional for proper diagnosis': 'उचित निदान के लिए स्वास्थ्य पेशेवर से परामर्श करें',
+  'Monitor your symptoms': 'अपने लक्षणों की निगरानी करें',
+  'Keep track of any changes in symptoms': 'लक्षणों में किसी भी बदलाव पर नज़र रखें',
+  'Follow medical advice': 'चिकित्सीय सलाह का पालन करें'
+};
+
+export const englishToTeluguConditions: Record<string, string> = {
+  'obstructive sleep apnea (osa)': 'ఆబ్స్ట్రక్టివ్ స్లీప్ అప్నియా (ఓఎస్ఏ)',
+  'dental caries': 'దంత క్షయం',
+  'noninfectious gastroenteritis': 'నాన్-ఇన్ఫెక్షియస్ గ్యాస్ట్రోఎంటరైటిస్',
+  'arthritis of the hip': 'హిప్ ఆర్థరైటిస్',
+  'peripheral nerve disorder': 'పెరిఫెరల్ నర్ డిజార్డర్',
+  'injury to the leg': 'కాళ్లకు గాయం',
+  'cystitis': 'సిస్టిటిస్',
+  'gastrointestinal hemorrhage': 'గ్యాస్ట్రోఇంటెస్టైనల్ హెమరేజ్',
+  'concussion': 'కన్కషన్',
+  'hypoglycemia': 'హైపోగ్లైసీమియా',
+  'eczema': 'ఎక్జిమా',
+  'cholecystitis': 'కోలెసిస్టిటిస్',
+  'spontaneous abortion': 'స్వయంగా గర్భస్రావం',
+  'strep throat': 'స్ట్రెప్ తొండం',
+  'acute bronchitis': 'ఆక్యూట్ బ్రోన్కైటిస్',
+  'diverticulitis': 'డైవర్టిక్యులైటిస్',
+  'vaginal cyst': 'యోని సిస్ట్',
+  'liver disease': 'కాలేయ వ్యాధి',
+  'esophagitis': 'ఈసోఫాజైటిస్',
+  'nose disorder': 'ముక్కు రుగ్మత',
+  'pneumonia': 'న్యుమోనియా',
+  'injury to the arm': 'చేతికి గాయం',
+  'complex regional pain syndrome': 'కాంప్లెక్స్ రీజినల్ పెయిన్ సిండ్రోమ్',
+  'acute bronchiolitis': 'ఆక్యూట్ బ్రోన్కియోలైటిస్',
+  'benign prostatic hyperplasia (bph)': 'బీనిగ్న్ ప్రోస్టేటిక్ హైపర్ప్లాసియా (బిపిహెచ్)',
+  'acute pancreatitis': 'ఆక్యూట్ ప్యాంక్రియాటైటిస్',
+  'conjunctivitis due to allergy': 'అలెర్జీ వల్ల కంజెక్టివైటిస్',
+  'fungal infection of the hair': 'వెంట్రుకల ఫంగల్ ఇన్ఫెక్షన్',
+  'bursitis': 'బర్సైటిస్',
+  'vulvodynia': 'వల్వోడైనియా',
+  'spinal stenosis': 'స్పైనల్ స్టెనోసిస్',
+  'spondylosis': 'స్పాండిలోసిస్',
+  'gout': 'గౌట్',
+  'anxiety': 'ఆందోళన',
+  'marijuana abuse': 'మరిజువానా దుర్వినియోగం',
+  'infectious gastroenteritis': 'ఇన్ఫెక్షియస్ గ్యాస్ట్రోఎంటరైటిస్',
+  'sprain or strain': 'స్ప్రెయిన్ లేదా స్ట్రెయిన్',
+  // Add translations for common phrases
+  'Consult a healthcare professional for proper diagnosis': 'సరైన రోగనిర్ధారణ కోసం ఆరోగ్య నిపుణులను సంప్రదించండి',
+  'Monitor your symptoms': 'మీ లక్షణాలను పర్యవేక్షించండి',
+  'Keep track of any changes in symptoms': 'లక్షణాలలో ఏవైనా మార్పులను గమనించండి',
+  'Follow medical advice': 'వైద్య సలహాను పాటించండి'
+};
+
+export function translateDiseaseToLanguage(text: string, language: Language): string {
+  if (language === 'english') return text;
+
+  const translationMap = language === 'hindi' ? englishToHindiConditions : englishToTeluguConditions;
+  return translationMap[text.toLowerCase()] || text;
+}
