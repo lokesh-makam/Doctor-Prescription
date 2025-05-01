@@ -20,6 +20,8 @@ build/
 data/
 
 models/
+models/voting_ensemble.pkl
+
 
 # Editor directories and files
 .vscode/*
