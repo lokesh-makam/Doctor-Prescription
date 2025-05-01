@@ -5,7 +5,6 @@ An AI-powered application that predicts possible medical conditions based on sym
 ## Features
 
 - Natural language symptom input
-- Spelling correction
 - Synonym handling
 - Semantic similarity matching
 - Machine learning-based disease prediction
@@ -15,25 +14,69 @@ An AI-powered application that predicts possible medical conditions based on sym
 
 ## Installation
 
-1. Clone this repository
-2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+1. Clone this repository:
+```bash
+git clone https://github.com/lokesh-makam/Doctor-Prescription.git
+```
+
+2. Navigate to project directory:
+```bash
+cd Doctor-Prescription
+```
+
+3. Install required packages:
+```bash
+pip install -r requirements.txt
+```
+
+## Dataset Setup
+
+1. Download the dataset from:
+[Dataset Download Link](https://www.kaggle.com/datasets/b210499makamlokesh/symptoms-to-disease)
+
+2. Create a data directory and place the dataset
+
+## Training the Model
+
+Train the machine learning model before first use:
+
+This will:
+- Preprocess the data
+- Train and save the model to `models/voting_ensemble.pkl`
+- Generate necessary vectorizers and metadata
 
 ## Usage
 
-1. Run the Streamlit app:
-   ```bash
-   streamlit run app.py
-   ```
+Launch the application:
+```bash
+streamlit run app.py
+```
 
-2. Open your web browser and navigate to the URL shown in the terminal (usually http://localhost:8501)
+Then:
+1. Open the provided URL (usually http://localhost:5137)
+2. Enter symptoms in natural language
+3. Click "Analyze Symptoms" for predictions
 
-3. Enter your symptoms in natural language in the text area
+## Project Structure
 
-4. Click "Analyze Symptoms" to get predictions
+```
+doctor-prescription-assistant/
+├── data/
+│   └── balanced_disease_dataset.csv       # Symptom-disease dataset
+├── models/
+│   ├── voting_ensemble.pkl         # Trained model
+├── app.py                       # Streamlit application
+├── requirements.txt             # Dependencies
+└── README.md                    # This file
+```
 
-## Important Note
+## Demo Video
 
-This application is for educational purposes only and should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for medical concerns.
+Watch the demo video explaining the project here:  
+🎥 [Watch on YouTube](https://youtu.be/KyiCHv-rDUU?si=qfBgqtxGaVaw0wN9)
+## Notes
+
+- First-time setup requires model training (may take 5-10 minutes)
+- Requires Python 3.8 or higher
+- Minimum 4GB RAM recommended for training
+```
